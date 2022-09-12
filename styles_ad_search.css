@@ -1,0 +1,99 @@
+/* Advanced search */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-logo {
+    object-fit: contain;
+    width: 90px;
+    height: 40px;
+}
+
+.separator {
+    border-bottom: 1px solid #ebebeb ;
+}
+
+.advanced_search_title {
+    font-size: 20px;
+    color: #D93025;
+    margin: 25px 0 20px 40px;
+    display: block;
+}
+
+form {
+    position: relative;
+}
+
+form label {
+    font-size: 13px;
+    color: #222222;
+    line-height: 16px;
+    vertical-align: middle;
+    width: 16%;
+    min-width: 167px;
+}
+
+.query-form {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.text-input {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-input input {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 24px;
+    padding: 1px 8px;
+    width: 50%;
+    min-width: 167px;
+}
+
+.tip {
+    color: #555;
+    font-size: 11px;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 0 1%;
+    padding-left: 5px;
+}
+
+.tip span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+
+}
+
+input[value="Advanced Search"] {
+    position: absolute;
+    line-height: 100%;
+    user-select:none;
+    height: 30px;
+    min-width: 120px;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+    left: 56.04%;
+}
+
+input[value="Advanced Search"]:hover{
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+}

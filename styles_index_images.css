@@ -1,0 +1,125 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    object-fit: contain;
+    width: 272px;
+    height: 150px;
+}
+
+nav {
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 3px 10px;
+    font-size: 13px;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.search-container {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.text-input {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.text-input img {
+    height: 18px;
+    width: 18px;
+    line-height: 20px;
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+
+.text-input .search-icon {
+    margin-left: 15px;
+}
+
+.text-input .microphone-icon {
+    margin-right: 15px;
+}
+
+.text-input input[type="text"] {
+    width: 80%;
+    height: 80%;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
+
+.search-form input[type="submit"], .search-form input[type="button"] {
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px 20px;
+}
+
+.search-form input[type="submit"]:hover, .search-form input[type="button"]:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    margin: 0 0 -3.9px 0;
+}
+
+.logo-images {
+    position: relative;
+}
+
+#images-word {
+    position: absolute;
+    color: #4285f4;
+    top:104px;
+    right: 7px;
+}
+
+
+

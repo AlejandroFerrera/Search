@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles_ad_search.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><img class="nav-logo" src="/assets/logo-Google.png" alt="nav-logo-google"></a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <label class="advanced_search_title">Advanced Search</label>
+        <div class="separator"></div>
+        <form class="query-form" action="https://www.google.com/search" methods="GET">
+
+            <span>Find Pages with...</span>
+            <div class="text-input">
+                <label for="all-these-words">all these words:</label>
+                <input type="text" id="all-these-words" name="as_q">
+                <p class="tip">Type the important words: <span>tri-colour rat terrier</span> </p>
+            </div>
+
+            <div class="text-input">
+                <label for="this-exact">this exact word or phrase:</label>
+                <input type="text" id="this-exact" name="as_epq">
+                <p class="tip">Put exact words in quotes: <span>"rat terrier"</span> </p>
+            </div>
+            <div class="text-input">
+                <label for="any-of-these-words">any of these words:</label>
+                <input type="text" id="any-of-these-words" name="as_oq">
+                <p class="tip">Type OR between all the words you want: <span>miniature OR standard</span> </p>
+            </div>
+            <div class="text-input">
+                <label for="none-of-these-words">none of these words:</label>
+                <input type="text" id="none-of-these-words" name="as_eq">
+                <p class="tip">Put a minus sign just before words that you don't want: <span>-rodent, -"Jack
+                        Rusell"</span> </p>
+            </div>
+            <input type="submit" value="Advanced Search">
+        </form>
+    </main>
+
+</body>
+
+</html>
